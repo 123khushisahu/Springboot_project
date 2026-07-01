@@ -1,0 +1,26 @@
+What is Inheritance?
+
+Inheritance is an OOP concept where one class acquires the properties and methods of another class.
+
+It is implemented using the extends keyword.
+
+Definition
+
+Inheritance is an IS-A relationship.
+
+This means the child class is a type of the parent class.
+
+IS-A Relationship
+
+Meaning:
+
+If we can say:
+
+Child IS A Parent
+
+then inheritance is appropriate.
+
+Real-life Examples
+Dog is an Animal ✅
+Car is a Vehicle ✅
+Teacher is a Person ✅
