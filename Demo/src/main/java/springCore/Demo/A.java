@@ -10,4 +10,9 @@ public String toString() {
 	return "A[a="+a+"]";
 	
 }
+
+
+    
+     
+     
 }
