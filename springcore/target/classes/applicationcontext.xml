@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="sensor" class="com.nt.Sensor">
+        <constructor-arg value="1"/>
+        <constructor-arg value="true"/>
+    </bean>
+
+    <bean id="chip" class="com.nt.Chip" autowire-candidate="false">
+        <constructor-arg value="NVIDIA"/>
+        <constructor-arg value="12123"/>
+    </bean>
+
+    <bean id="chip1" class="com.nt.Chip">
+        <constructor-arg value="Intel"/>
+        <constructor-arg value="55555"/>
+    </bean>
+
+    <bean id="robot" class="com.nt.Robot" autowire="constructor"/>
+
+</beans>

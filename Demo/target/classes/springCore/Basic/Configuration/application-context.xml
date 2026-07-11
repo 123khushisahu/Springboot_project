@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- Bean definition for class A -->
+	<bean id="a" class="springCore.Demo.A" />
+	
+	<!-- Bean definition for class B -->
+	<bean id="b" class="springCore.Demo.B" />
+
+</beans>
