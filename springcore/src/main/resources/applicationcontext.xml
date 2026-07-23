@@ -22,5 +22,8 @@
     </bean>
 
     <bean id="robot" class="com.nt.Robot" autowire="constructor"/>
+<bean id="service" class="com.nt.NaukariService"/>
 
-</beans>
+<bean id="app" class="com.nt.NaukariApp">
+    <property name="ref" ref="service"/>
+</bean></beans>
